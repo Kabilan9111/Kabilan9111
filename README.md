@@ -103,6 +103,22 @@
 
 <div align="center">
 
+<img src="https://github-readme-streak-stats.herokuapp.com?user=Kabilan9111&theme=github-dark-blue&hide_border=true"/>
+
+</div>
+
+<br>
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=Kabilan9111&theme=github_dark&no-frame=true&no-bg=true&margin-w=10&row=1&column=6"/>
+
+</div>
+
+<br>
+
+<div align="center">
+
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Kabilan9111&theme=github-dark&hide_border=true"/>
 
 </div>
