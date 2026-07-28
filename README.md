@@ -125,3 +125,49 @@
 </div>
 
 
+
+
+
+
+
+<h2 align="center">🚀 Featured Projects</h2>
+
+<p align="center">
+  Premium AI, Full Stack & Software Engineering Projects
+</p>
+
+<br>
+
+<p align="center">
+  <a href="https://github.com/YOUR_USERNAME/CopGuard-AI">
+    <img src="./cards/copguard-ai.svg" width="430" alt="CopGuard AI"/>
+  </a>
+
+  <a href="https://github.com/YOUR_USERNAME/SkillForge">
+    <img src="./cards/skillforge.svg" width="430" alt="SkillForge"/>
+  </a>
+</p>
+
+<br>
+
+<p align="center">
+  <a href="https://github.com/YOUR_USERNAME/Student-Progress-Tracker">
+    <img src="./cards/student-progress-tracker.svg" width="430" alt="Student Progress Tracker"/>
+  </a>
+
+  <a href="https://github.com/YOUR_USERNAME/Scorpion-AI">
+    <img src="./cards/scorpion-ai.svg" width="430" alt="Scorpion AI"/>
+  </a>
+</p>
+
+<br>
+
+<p align="center">
+  <a href="https://github.com/YOUR_USERNAME/IDBI">
+    <img src="./cards/idbi-agentic-ai.svg" width="430" alt="IDBI Agentic AI"/>
+  </a>
+
+  <a href="https://github.com/YOUR_USERNAME/SentrixDriver">
+    <img src="./cards/sentrix-drive.svg" width="430" alt="Sentrix Drive"/>
+  </a>
+</p>
