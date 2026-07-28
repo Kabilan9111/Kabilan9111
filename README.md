@@ -4,9 +4,9 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=2500&pause=1000&color=58A6FF&center=true&vCenter=true&width=900&lines=AI+Software+Engineer;Full+Stack+Developer;Agentic+AI+Developer;Building+intelligent+software+systems.;Creating+innovative+and+impactful+software+systems.)](https://git.io/typing-svg)
 
-<h3>
-<code><span style="color:#ff4d4d;">Building production-grade AI systems for real-world impact.</span></code>
-</h3>
+<br>
+
+![](https://img.shields.io/badge/Building%20production--grade%20AI%20systems%20for%20real--world%20impact-DC2626?style=for-the-badge&labelColor=111827&color=DC2626)
 
 </div>
 
