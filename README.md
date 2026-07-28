@@ -130,23 +130,38 @@
 
 
 
-<h2 align="center">🚀 Featured Projects</h2>
+## 🚀 Featured Projects
 
-<p align="center">
-  <img src="./cards/gold-template.svg" width="430">
-  <img src="./cards/red-template.svg" width="430">
-</p>
+<div align="center">
+
+<a href="https://github.com/Kabilan9111/CopGuard-AI">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kabilan9111&repo=CopGuard-AI&theme=github_dark&hide_border=true" />
+</a>
+
+<a href="https://github.com/Kabilan9111/SkillForge">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kabilan9111&repo=SkillForge&theme=github_dark&hide_border=true" />
+</a>
+
+<a href="https://github.com/Kabilan9111/Student-Progress-Tracker">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kabilan9111&repo=Student-Progress-Tracker&theme=github_dark&hide_border=true" />
+</a>
+
+</div>
 
 <br>
 
-<p align="center">
-  <img src="./cards/silver-template.svg" width="430">
-  <img src="./cards/gold-template.svg" width="430">
-</p>
+<div align="center">
 
-<br>
+<a href="https://github.com/Kabilan9111/Scorpion-AI">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kabilan9111&repo=Scorpion-AI&theme=github_dark&hide_border=true" />
+</a>
 
-<p align="center">
-  <img src="./cards/red-template.svg" width="430">
-  <img src="./cards/silver-template.svg" width="430">
-</p>
+<a href="https://github.com/Kabilan9111/IDBI">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kabilan9111&repo=IDBI&theme=github_dark&hide_border=true" />
+</a>
+
+<a href="https://github.com/Kabilan9111/SentrixDriver">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kabilan9111&repo=SentrixDriver&theme=github_dark&hide_border=true" />
+</a>
+
+</div>
