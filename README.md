@@ -93,14 +93,13 @@
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Kabilan9111&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Kabilan9111&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github"/>
+
+<img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Kabilan9111&theme=github_dark"/>
 
 </div>
 
 <br>
-
-<!-- Repository Visitors (Add external analytics widget later if desired) -->
-<!-- Repository Clones (Add external analytics widget later if desired) -->
 
 <div align="center">
 
