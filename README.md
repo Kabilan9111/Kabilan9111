@@ -87,6 +87,7 @@
 
 
 
+
 ---
 
 # 🏆 GitHub Stats
@@ -103,7 +104,7 @@
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=Kabilan9111&theme=github-dark-blue&hide_border=true"/>
+<img src="https://streak-stats.demolab.com?user=Kabilan9111&theme=github-dark&hide_border=true"/>
 
 </div>
 
@@ -111,7 +112,7 @@
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=Kabilan9111&theme=github_dark&no-frame=true&no-bg=true&margin-w=10&row=1&column=6"/>
+<img src="https://github-profile-trophy.vercel.app/?username=Kabilan9111&theme=algolia&no-frame=true&no-bg=true&row=1&column=6"/>
 
 </div>
 
