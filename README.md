@@ -130,38 +130,42 @@
 
 
 
-## 🚀 Featured Projects
+## 🚀 Featured Project
 
 <div align="center">
 
-<a href="https://github.com/Kabilan9111/Cop-Guard-AI">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kabilan9111&repo=Cop-Guard-AI&theme=github_dark&hide_border=true" />
-</a>
+# 📚 Student Progress Tracker
 
-<a href="https://github.com/Kabilan9111/SkillForge">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kabilan9111&repo=SkillForge&theme=github_dark&hide_border=true" />
-</a>
-
-<a href="https://github.com/Kabilan9111/Student-Progress-Tracker">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kabilan9111&repo=Student-Progress-Tracker&theme=github_dark&hide_border=true" />
-</a>
-
-</div>
+*A modern productivity platform that helps students organize schedules, build habits, track progress, and stay consistent.*
 
 <br>
 
-<div align="center">
-
-<a href="https://github.com/Kabilan9111/Scorpion-AI">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kabilan9111&repo=Scorpion-AI&theme=github_dark&hide_border=true" />
+<a href="https://student-progress-tracker-five.vercel.app/">
+  <img src="https://img.shields.io/badge/🌐_Live_Demo-0A66C2?style=for-the-badge&logo=vercel&logoColor=white" />
 </a>
 
-<a href="https://github.com/Kabilan9111/IDBI">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kabilan9111&repo=IDBI&theme=github_dark&hide_border=true" />
+<a href="https://github.com/Kabilan9111/Student-Progress-Tracker">
+  <img src="https://img.shields.io/badge/📂_GitHub_Repository-181717?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 
-<a href="https://github.com/Kabilan9111/SentrixDriver">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kabilan9111&repo=SentrixDriver&theme=github_dark&hide_border=true" />
-</a>
+<br><br>
+
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+<img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white"/>
+<img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
 
 </div>
+
+---
+
+### ✨ Features
+
+- 📅 Smart timetable planner
+- ✅ Daily task management
+- 🎯 Habit tracking
+- 📊 Progress analytics
+- 🔔 Reminder system
+- 🎨 Modern responsive UI
+
+---
