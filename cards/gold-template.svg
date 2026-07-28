@@ -1,99 +1,230 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="340" viewBox="0 0 900 340" role="img" aria-labelledby="title desc">
-  <title id="title">Featured project card</title>
-  <desc id="desc">A premium dark project card with a gold border, technology chips, and GitHub and Live Demo buttons.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="340" viewBox="0 0 900 340" role="img" aria-labelledby="title description">
+  <title id="title">Featured Project — Signature Project</title>
+  <desc id="description">A premium featured project card with a dark layered surface, a gold metallic frame, technology chips, and action buttons.</desc>
   <defs>
-    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#141414"/>
-      <stop offset="0.48" stop-color="#0D0D0D"/>
-      <stop offset="1" stop-color="#050505"/>
+    <linearGradient id="surface" x1="70" y1="0" x2="830" y2="340" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#161616"/>
+      <stop offset="0.32" stop-color="#0D0D0E"/>
+      <stop offset="0.74" stop-color="#080808"/>
+      <stop offset="1" stop-color="#12100B"/>
     </linearGradient>
-    <radialGradient id="topLight" cx="50%" cy="0%" r="78%">
-      <stop offset="0" stop-color="#FFF4C4" stop-opacity="0.13"/>
-      <stop offset="0.32" stop-color="#D9A91F" stop-opacity="0.055"/>
-      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    <radialGradient id="topAmbient" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(425 5) rotate(90) scale(250 490)">
+      <stop offset="0" stop-color="#FFF3C5" stop-opacity="0.18"/>
+      <stop offset="0.22" stop-color="#E5B93E" stop-opacity="0.075"/>
+      <stop offset="0.62" stop-color="#C58C13" stop-opacity="0.018"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#B8860B"/>
-      <stop offset="0.23" stop-color="#F5D36A"/>
-      <stop offset="0.52" stop-color="#FFD700"/>
-      <stop offset="0.77" stop-color="#F7CC51"/>
-      <stop offset="1" stop-color="#B8860B"/>
+    <radialGradient id="leftAmbient" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(58 182) rotate(22) scale(315 245)">
+      <stop offset="0" stop-color="#D6A32A" stop-opacity="0.09"/>
+      <stop offset="0.3" stop-color="#9C6B0C" stop-opacity="0.024"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cornerAmbient" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(840 315) rotate(-143) scale(285 210)">
+      <stop offset="0" stop-color="#B77A08" stop-opacity="0.10"/>
+      <stop offset="0.34" stop-color="#B77A08" stop-opacity="0.018"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cinematicBeam" x1="196" y1="-20" x2="664" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFF9E2" stop-opacity="0"/>
+      <stop offset="0.39" stop-color="#FFF3BD" stop-opacity="0.035"/>
+      <stop offset="0.52" stop-color="#FFD34D" stop-opacity="0.062"/>
+      <stop offset="0.66" stop-color="#FFF3BD" stop-opacity="0.018"/>
+      <stop offset="1" stop-color="#FFF9E2" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="badgeGold" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#B8860B"/>
-      <stop offset="0.45" stop-color="#FFD700"/>
-      <stop offset="1" stop-color="#E8B734"/>
+    <linearGradient id="frameGold" x1="38" y1="12" x2="862" y2="328" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8B610B"/>
+      <stop offset="0.07" stop-color="#F4D372"/>
+      <stop offset="0.19" stop-color="#FFF1B5"/>
+      <stop offset="0.34" stop-color="#C28D19"/>
+      <stop offset="0.51" stop-color="#F8D96A"/>
+      <stop offset="0.69" stop-color="#A66F0B"/>
+      <stop offset="0.84" stop-color="#FFDF70"/>
+      <stop offset="1" stop-color="#8D620E"/>
     </linearGradient>
-    <linearGradient id="buttonSheen" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.09"/>
-      <stop offset="0.45" stop-color="#FFFFFF" stop-opacity="0.018"/>
-      <stop offset="1" stop-color="#000000" stop-opacity="0.12"/>
+    <linearGradient id="innerGold" x1="100" y1="10" x2="792" y2="332" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFF4C5" stop-opacity="0.62"/>
+      <stop offset="0.18" stop-color="#D8A32A" stop-opacity="0.16"/>
+      <stop offset="0.52" stop-color="#FFF6D0" stop-opacity="0.36"/>
+      <stop offset="0.83" stop-color="#A96D07" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#F6CD5A" stop-opacity="0.52"/>
     </linearGradient>
-    <filter id="goldGlow" x="-20%" y="-40%" width="140%" height="180%">
-      <feGaussianBlur stdDeviation="7" result="blur"/>
-      <feFlood flood-color="#FFD700" flood-opacity="0.34" result="color"/>
-      <feComposite in="color" in2="blur" operator="in" result="glow"/>
-      <feMerge><feMergeNode in="glow"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <linearGradient id="metalStroke" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFF8DB" stop-opacity="0.58"/>
+      <stop offset="0.38" stop-color="#F1C95B" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#5E430D" stop-opacity="0.46"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFF" stop-opacity="0.13"/>
+      <stop offset="0.18" stop-color="#FFF" stop-opacity="0.06"/>
+      <stop offset="0.52" stop-color="#FFF" stop-opacity="0.014"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.16"/>
+    </linearGradient>
+    <linearGradient id="iconFace" x1="9" y1="3" x2="66" y2="72" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2A2820"/>
+      <stop offset="0.4" stop-color="#171613"/>
+      <stop offset="1" stop-color="#090909"/>
+    </linearGradient>
+    <linearGradient id="badgeMetal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFEDAA"/>
+      <stop offset="0.15" stop-color="#F5D56B"/>
+      <stop offset="0.49" stop-color="#D5A42B"/>
+      <stop offset="0.78" stop-color="#B47A0C"/>
+      <stop offset="1" stop-color="#EEC34E"/>
+    </linearGradient>
+    <linearGradient id="buttonGold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F5D56D"/>
+      <stop offset="0.3" stop-color="#A97008"/>
+      <stop offset="0.58" stop-color="#FFD968"/>
+      <stop offset="1" stop-color="#80570C"/>
+    </linearGradient>
+    <linearGradient id="ctaFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2A210B"/>
+      <stop offset="0.49" stop-color="#1C1709"/>
+      <stop offset="1" stop-color="#0D0C09"/>
+    </linearGradient>
+    <pattern id="microGrid" width="18" height="18" patternUnits="userSpaceOnUse">
+      <path d="M18 0H0V18" fill="none" stroke="#FFE9A0" stroke-opacity="0.045" stroke-width="0.65"/>
+      <circle cx="0.6" cy="0.6" r="0.6" fill="#FFE5A0" fill-opacity="0.065"/>
+    </pattern>
+    <filter id="frameBloom" x="-8%" y="-16%" width="116%" height="132%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="7" result="blur"/>
+      <feFlood flood-color="#E9B72E" flood-opacity="0.19" result="gold"/>
+      <feComposite in="gold" in2="blur" operator="in"/>
     </filter>
-    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="160%">
-      <feDropShadow dx="0" dy="10" stdDeviation="11" flood-color="#000000" flood-opacity="0.65"/>
+    <filter id="cardShadow" x="-10%" y="-20%" width="120%" height="150%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#000" flood-opacity="0.72"/>
     </filter>
-    <filter id="badgeShadow" x="-30%" y="-60%" width="160%" height="220%">
-      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#D99D00" flood-opacity="0.35"/>
+    <filter id="iconShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="8" stdDeviation="7" flood-color="#000" flood-opacity="0.65"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#D6A62D" flood-opacity="0.18"/>
     </filter>
-    <clipPath id="cardClip"><rect width="900" height="340" rx="32"/></clipPath>
+    <filter id="chipShadow" x="-30%" y="-70%" width="160%" height="240%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#000" flood-opacity="0.48"/>
+    </filter>
+    <filter id="badgeShadow" x="-30%" y="-70%" width="160%" height="240%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000" flood-opacity="0.48"/>
+      <feDropShadow dx="0" dy="1" stdDeviation="3" flood-color="#E8B72E" flood-opacity="0.22"/>
+    </filter>
+    <clipPath id="cardClip"><rect x="0" y="0" width="900" height="340" rx="32"/></clipPath>
+    <clipPath id="iconClip"><rect width="76" height="76" rx="22"/></clipPath>
   </defs>
 
-  <g filter="url(#softShadow)">
-    <rect x="1.5" y="1.5" width="897" height="337" rx="30.5" fill="url(#surface)"/>
+  <g filter="url(#cardShadow)">
+    <rect x="2" y="2" width="896" height="336" rx="30" fill="#060606"/>
+    <rect x="2" y="2" width="896" height="336" rx="30" fill="url(#surface)"/>
     <g clip-path="url(#cardClip)">
-      <rect width="900" height="340" fill="url(#topLight)"/>
-      <path d="M30 106H870" stroke="#FFFFFF" stroke-opacity="0.055"/>
-      <path d="M0 290C215 252 390 318 572 278C724 244 824 254 900 274V340H0Z" fill="#000000" opacity="0.16"/>
-      <ellipse cx="730" cy="20" rx="210" ry="90" fill="#FFD700" opacity="0.018"/>
+      <rect width="900" height="340" fill="url(#topAmbient)"/>
+      <rect width="900" height="340" fill="url(#leftAmbient)"/>
+      <rect width="900" height="340" fill="url(#cornerAmbient)"/>
+      <path d="M145 -48L374 -48L774 388L542 388Z" fill="url(#cinematicBeam)"/>
+      <rect x="24" y="20" width="852" height="300" rx="22" fill="url(#microGrid)" opacity="0.30"/>
+      <path d="M0 277C166 236 288 286 463 272C640 258 767 211 900 233V340H0Z" fill="#000" opacity="0.17"/>
+      <path d="M35 113H865" stroke="#F9E5A5" stroke-opacity="0.10"/>
+      <path d="M35 114H865" stroke="#000" stroke-opacity="0.42"/>
+      <ellipse cx="184" cy="-24" rx="245" ry="73" fill="#FFF2BA" opacity="0.04"/>
+      <ellipse cx="760" cy="350" rx="200" ry="64" fill="#F6BE2D" opacity="0.035"/>
     </g>
-    <rect x="1.5" y="1.5" width="897" height="337" rx="30.5" fill="none" stroke="url(#gold)" stroke-width="3" filter="url(#goldGlow)"/>
-    <rect x="8" y="8" width="884" height="324" rx="25" fill="none" stroke="#FFF4C4" stroke-opacity="0.14"/>
-    <path d="M34 20H866" stroke="#FFFFFF" stroke-opacity="0.12" stroke-linecap="round"/>
+    <rect x="2" y="2" width="896" height="336" rx="30" fill="none" stroke="url(#frameGold)" stroke-width="3"/>
+    <rect x="2" y="2" width="896" height="336" rx="30" fill="none" stroke="#F5D36A" stroke-opacity="0.56" stroke-width="3" filter="url(#frameBloom)"/>
+    <rect x="7.5" y="7.5" width="885" height="325" rx="25" fill="none" stroke="url(#innerGold)" stroke-width="1.1"/>
+    <rect x="10.5" y="10.5" width="879" height="319" rx="23" fill="none" stroke="#FFF4CE" stroke-opacity="0.075"/>
+    <path d="M36 18H310" stroke="#FFF7DC" stroke-opacity="0.50" stroke-linecap="round"/>
+    <path d="M590 18H864" stroke="#FFF7DC" stroke-opacity="0.24" stroke-linecap="round"/>
+    <path d="M37 322H248" stroke="#9B680A" stroke-opacity="0.38" stroke-linecap="round"/>
+    <path d="M661 322H863" stroke="#FFD96B" stroke-opacity="0.38" stroke-linecap="round"/>
+    <path d="M20 42V82" stroke="#FFEFAF" stroke-opacity="0.34" stroke-linecap="round"/>
+    <path d="M880 255V296" stroke="#FFEFAF" stroke-opacity="0.20" stroke-linecap="round"/>
   </g>
 
-  <g transform="translate(42 38)">
-    <rect width="72" height="72" rx="20" fill="#0B0B0B" stroke="url(#gold)" stroke-width="2"/>
-    <rect x="6" y="6" width="60" height="60" rx="15" fill="#171717" stroke="#FFF0B1" stroke-opacity="0.16"/>
-    <path d="M24 44L36 25L48 44L41.6 43.9L36 34.9L30.4 43.9Z" fill="url(#gold)"/>
-    <circle cx="36" cy="49" r="3" fill="#F5D36A"/>
-  </g>
-  <text x="134" y="63" fill="#FFFFFF" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="27" font-weight="800" letter-spacing="0.5">PROJECT NAME</text>
-  <text x="134" y="91" fill="#B6B6B6" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14.5">A refined, high-performance product built for the future.</text>
-
-  <g transform="translate(716 42)" filter="url(#badgeShadow)">
-    <rect width="142" height="37" rx="18.5" fill="url(#badgeGold)"/>
-    <rect x="1" y="1" width="140" height="35" rx="17.5" fill="none" stroke="#FFF5C1" stroke-opacity="0.68"/>
-    <path d="M23 10.7L25.6 16L31.4 16.9L27.2 21L28.2 26.8L23 24.1L17.8 26.8L18.8 21L14.6 16.9L20.4 16Z" fill="#4F3600"/>
-    <text x="42" y="23.5" fill="#392700" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="800" letter-spacing="0.8">FLAGSHIP</text>
-  </g>
-
-  <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="650">
-    <g transform="translate(42 145)"><rect width="91" height="35" rx="17.5" fill="#121212" stroke="#D9AD37" stroke-opacity="0.7"/><rect x="1" y="1" width="89" height="33" rx="16.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.055"/><circle cx="18" cy="17.5" r="4" fill="#61DAFB"/><text x="30" y="22" fill="#E8E8E8">React</text></g>
-    <g transform="translate(144 145)"><rect width="126" height="35" rx="17.5" fill="#121212" stroke="#D9AD37" stroke-opacity="0.7"/><rect x="1" y="1" width="124" height="33" rx="16.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.055"/><circle cx="18" cy="17.5" r="4" fill="#6DB33F"/><text x="30" y="22" fill="#E8E8E8">Spring Boot</text></g>
-    <g transform="translate(281 145)"><rect width="116" height="35" rx="17.5" fill="#121212" stroke="#D9AD37" stroke-opacity="0.7"/><rect x="1" y="1" width="114" height="33" rx="16.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.055"/><circle cx="18" cy="17.5" r="4" fill="#47A248"/><text x="30" y="22" fill="#E8E8E8">MongoDB</text></g>
-    <g transform="translate(408 145)"><rect width="101" height="35" rx="17.5" fill="#121212" stroke="#D9AD37" stroke-opacity="0.7"/><rect x="1" y="1" width="99" height="33" rx="16.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.055"/><circle cx="18" cy="17.5" r="4" fill="#8E75FF"/><text x="30" y="22" fill="#E8E8E8">Gemini</text></g>
-    <g transform="translate(520 145)"><rect width="102" height="35" rx="17.5" fill="#121212" stroke="#D9AD37" stroke-opacity="0.7"/><rect x="1" y="1" width="100" height="33" rx="16.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.055"/><circle cx="18" cy="17.5" r="4" fill="#2496ED"/><text x="30" y="22" fill="#E8E8E8">Docker</text></g>
-  </g>
-
-  <g transform="translate(42 239)">
-    <g>
-      <rect width="154" height="54" rx="16" fill="#101010" stroke="url(#gold)" stroke-width="1.5"/>
-      <rect x="1.5" y="1.5" width="151" height="51" rx="14.5" fill="url(#buttonSheen)"/>
-      <path d="M29 19.8C24.7 19.8 21.1 23.3 21.1 27.7C21.1 31.2 23.4 34.2 26.6 35.3C27 35.4 27.1 35.1 27.1 34.9V33.2C24.8 33.7 24.3 32.2 24.3 32.2C23.9 31.2 23.3 30.9 23.3 30.9C22.5 30.4 23.4 30.4 23.4 30.4C24.3 30.5 24.8 31.3 24.8 31.3C25.6 32.7 26.9 32.3 27.3 32.1C27.4 31.5 27.6 31.1 27.8 30.9C25.9 30.7 23.8 30 23.8 27.1C23.8 26.3 24.1 25.6 24.6 25C24.5 24.8 24.3 24.1 24.7 23.1C24.7 23.1 25.4 22.9 27.1 24C27.7 23.8 28.3 23.8 29 23.8C29.6 23.8 30.2 23.8 30.8 24C32.5 22.9 33.2 23.1 33.2 23.1C33.6 24.1 33.4 24.8 33.3 25C33.8 25.6 34.1 26.3 34.1 27.1C34.1 30 32 30.7 30.1 30.9C30.4 31.2 30.6 31.7 30.6 32.4V34.9C30.6 35.1 30.8 35.4 31.2 35.3C34.4 34.2 36.7 31.2 36.7 27.7C36.7 23.3 33.2 19.8 29 19.8Z" fill="#F5D36A"/>
-      <text x="48" y="33.5" fill="#FFFFFF" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="750">GitHub</text>
+  <g transform="translate(42 37)" filter="url(#iconShadow)">
+    <rect width="76" height="76" rx="22" fill="#090909" stroke="url(#frameGold)" stroke-width="2"/>
+    <rect x="3.5" y="3.5" width="69" height="69" rx="19" fill="url(#iconFace)" stroke="url(#metalStroke)"/>
+    <g clip-path="url(#iconClip)">
+      <path d="M-16 22C17 8 42 4 92 17V-8H-16Z" fill="#FFF8D5" opacity="0.075"/>
+      <path d="M-18 8L25 0L76 38L76 52L32 18L-18 29Z" fill="#F8D46F" opacity="0.09"/>
+      <ellipse cx="31" cy="22" rx="31" ry="16" fill="#FFF4C4" opacity="0.06"/>
     </g>
-    <g transform="translate(168)">
-      <rect width="154" height="54" rx="16" fill="#15120A" stroke="url(#gold)" stroke-width="1.5"/>
-      <rect x="1.5" y="1.5" width="151" height="51" rx="14.5" fill="url(#buttonSheen)"/>
-      <path d="M29 21L37 27L29 33V29H22V25H29Z" fill="#F5D36A"/>
-      <text x="48" y="33.5" fill="#FFFFFF" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="750">Live Demo</text>
+    <path d="M23.5 47.5L38 23L52.5 47.5H44.7L38 36L31.3 47.5Z" fill="url(#frameGold)"/>
+    <path d="M38 26.5L48.5 44.5H44.7L38 33.4L31.3 44.5H27.5Z" fill="#FFF3BC" opacity="0.44"/>
+    <circle cx="38" cy="54" r="3" fill="#F9D76A"/>
+    <rect x="7" y="7" width="62" height="62" rx="17" fill="none" stroke="#FFF5C8" stroke-opacity="0.12"/>
+  </g>
+
+  <text x="139" y="65" fill="#FFFDF7" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="29" font-weight="800" letter-spacing="0.15">PROJECT NAME</text>
+  <path d="M140 77H217" stroke="url(#frameGold)" stroke-width="1.4" stroke-linecap="round"/>
+  <text x="139" y="96" fill="#AEAEAE" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14.5">A refined, high-performance product built for the future.</text>
+
+  <g transform="translate(705 40)" filter="url(#badgeShadow)">
+    <rect width="154" height="40" rx="20" fill="#6F4B07"/>
+    <rect x="1" y="1" width="152" height="38" rx="19" fill="url(#badgeMetal)"/>
+    <path d="M20 5H134C143 5 148 12 148 18H6C6 11 11 5 20 5Z" fill="#FFF9D7" opacity="0.30"/>
+    <rect x="2.2" y="2.2" width="149.6" height="35.6" rx="17.8" fill="none" stroke="#FFF7D3" stroke-opacity="0.73"/>
+    <circle cx="25" cy="20" r="10" fill="#5B3B02" opacity="0.90"/>
+    <path d="M25 12.2L27.1 16.5L31.8 17.2L28.4 20.6L29.2 25.3L25 23.1L20.8 25.3L21.6 20.6L18.2 17.2L22.9 16.5Z" fill="#FFECA4"/>
+    <path d="M45 12.5V27.5" stroke="#684709" stroke-opacity="0.32"/>
+    <text x="55" y="24.4" fill="#3B2801" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.5" font-weight="850" letter-spacing="1">FLAGSHIP</text>
+  </g>
+
+  <g transform="translate(42 145)" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5" font-weight="650">
+    <g filter="url(#chipShadow)">
+      <rect width="94" height="37" rx="18.5" fill="#101010" stroke="url(#metalStroke)"/>
+      <rect x="1.5" y="1.5" width="91" height="34" rx="17" fill="url(#glass)"/>
+      <path d="M16 5H78" stroke="#FFF" stroke-opacity="0.13" stroke-linecap="round"/>
+      <circle cx="19" cy="18.5" r="5" fill="#61DAFB"/><circle cx="19" cy="18.5" r="2.2" fill="#D3F7FF"/>
+      <text x="32" y="23" fill="#EBEBEB">React</text>
+    </g>
+    <g transform="translate(105)" filter="url(#chipShadow)">
+      <rect width="130" height="37" rx="18.5" fill="#101010" stroke="url(#metalStroke)"/>
+      <rect x="1.5" y="1.5" width="127" height="34" rx="17" fill="url(#glass)"/>
+      <path d="M16 5H114" stroke="#FFF" stroke-opacity="0.13" stroke-linecap="round"/>
+      <circle cx="19" cy="18.5" r="5" fill="#6DB33F"/><circle cx="19" cy="18.5" r="2.2" fill="#DDF5C9"/>
+      <text x="32" y="23" fill="#EBEBEB">Spring Boot</text>
+    </g>
+    <g transform="translate(246)" filter="url(#chipShadow)">
+      <rect width="120" height="37" rx="18.5" fill="#101010" stroke="url(#metalStroke)"/>
+      <rect x="1.5" y="1.5" width="117" height="34" rx="17" fill="url(#glass)"/>
+      <path d="M16 5H104" stroke="#FFF" stroke-opacity="0.13" stroke-linecap="round"/>
+      <circle cx="19" cy="18.5" r="5" fill="#47A248"/><circle cx="19" cy="18.5" r="2.2" fill="#C9F1C9"/>
+      <text x="32" y="23" fill="#EBEBEB">MongoDB</text>
+    </g>
+    <g transform="translate(377)" filter="url(#chipShadow)">
+      <rect width="105" height="37" rx="18.5" fill="#101010" stroke="url(#metalStroke)"/>
+      <rect x="1.5" y="1.5" width="102" height="34" rx="17" fill="url(#glass)"/>
+      <path d="M16 5H89" stroke="#FFF" stroke-opacity="0.13" stroke-linecap="round"/>
+      <circle cx="19" cy="18.5" r="5" fill="#8E75FF"/><circle cx="19" cy="18.5" r="2.2" fill="#E2DAFF"/>
+      <text x="32" y="23" fill="#EBEBEB">Gemini</text>
+    </g>
+    <g transform="translate(493)" filter="url(#chipShadow)">
+      <rect width="106" height="37" rx="18.5" fill="#101010" stroke="url(#metalStroke)"/>
+      <rect x="1.5" y="1.5" width="103" height="34" rx="17" fill="url(#glass)"/>
+      <path d="M16 5H90" stroke="#FFF" stroke-opacity="0.13" stroke-linecap="round"/>
+      <circle cx="19" cy="18.5" r="5" fill="#2496ED"/><circle cx="19" cy="18.5" r="2.2" fill="#D0EEFF"/>
+      <text x="32" y="23" fill="#EBEBEB">Docker</text>
     </g>
   </g>
-  <text x="858" y="289" text-anchor="end" fill="#8E8E8E" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="600" letter-spacing="1.5">FEATURED BUILD</text>
+
+  <g transform="translate(42 238)" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <g filter="url(#chipShadow)">
+      <rect width="158" height="56" rx="17" fill="#0B0B0B" stroke="url(#buttonGold)" stroke-width="1.45"/>
+      <rect x="2" y="2" width="154" height="52" rx="15" fill="url(#glass)"/>
+      <path d="M17 8H141" stroke="#FFF6CD" stroke-opacity="0.17" stroke-linecap="round"/>
+      <path d="M31 20.2C26.7 20.2 23.2 23.7 23.2 28.1C23.2 31.6 25.5 34.6 28.7 35.7C29.1 35.8 29.2 35.5 29.2 35.3V33.6C26.9 34.1 26.4 32.6 26.4 32.6C26 31.6 25.4 31.3 25.4 31.3C24.6 30.8 25.5 30.8 25.5 30.8C26.4 30.9 26.9 31.7 26.9 31.7C27.7 33.1 29 32.7 29.4 32.5C29.5 31.9 29.7 31.5 29.9 31.3C28 31.1 25.9 30.4 25.9 27.5C25.9 26.7 26.2 26 26.7 25.4C26.6 25.2 26.4 24.5 26.8 23.5C26.8 23.5 27.5 23.3 29.2 24.4C29.8 24.2 30.4 24.2 31.1 24.2C31.7 24.2 32.3 24.2 32.9 24.4C34.6 23.3 35.3 23.5 35.3 23.5C35.7 24.5 35.5 25.2 35.4 25.4C35.9 26 36.2 26.7 36.2 27.5C36.2 30.4 34.1 31.1 32.2 31.3C32.5 31.6 32.7 32.1 32.7 32.8V35.3C32.7 35.5 32.9 35.8 33.3 35.7C36.5 34.6 38.8 31.6 38.8 28.1C38.8 23.7 35.3 20.2 31 20.2Z" fill="#F7D66E"/>
+      <text x="52" y="34" fill="#FFFDF7" font-size="14" font-weight="760">GitHub</text>
+    </g>
+    <g transform="translate(171)" filter="url(#chipShadow)">
+      <rect width="158" height="56" rx="17" fill="url(#ctaFill)" stroke="url(#buttonGold)" stroke-width="1.45"/>
+      <rect x="2" y="2" width="154" height="52" rx="15" fill="url(#glass)"/>
+      <path d="M17 8H141" stroke="#FFF6CD" stroke-opacity="0.20" stroke-linecap="round"/>
+      <path d="M30 21L39 28L30 35V30.5H22V25.5H30Z" fill="#F7D66E"/>
+      <path d="M30 22.8L36.4 28L30 33.2V30.5H25.2V25.5H30Z" fill="#FFF2B6" opacity="0.46"/>
+      <text x="52" y="34" fill="#FFFDF7" font-size="14" font-weight="760">Live Demo</text>
+    </g>
+  </g>
+
+  <g transform="translate(683 273)">
+    <path d="M0 7H20" stroke="#D5A42B" stroke-width="1.2" stroke-linecap="round"/>
+    <circle cx="28" cy="7" r="2" fill="#F3CF67"/>
+    <path d="M36 7H54" stroke="#D5A42B" stroke-width="1.2" stroke-linecap="round"/>
+    <text x="175" y="11" text-anchor="end" fill="#A7A197" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.5" font-weight="750" letter-spacing="1.65">SIGNATURE PROJECT</text>
+  </g>
 </svg>
