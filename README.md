@@ -83,3 +83,27 @@
 ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+
+
+
+
+---
+
+# 🏆 GitHub Stats
+
+<div align="center">
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Kabilan9111&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true"/>
+
+</div>
+
+<br>
+
+<!-- Repository Visitors (Add external analytics widget later if desired) -->
+<!-- Repository Clones (Add external analytics widget later if desired) -->
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Kabilan9111&theme=github-dark&hide_border=true"/>
+
+</div>
