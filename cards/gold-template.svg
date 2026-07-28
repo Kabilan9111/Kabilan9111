@@ -1,1 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="340" viewBox="0 0 900 340" role="img" aria-labelledby="title desc">
+  <title id="title">Featured project card</title>
+  <desc id="desc">A premium dark project card with a gold border, technology chips, and GitHub and Live Demo buttons.</desc>
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#141414"/>
+      <stop offset="0.48" stop-color="#0D0D0D"/>
+      <stop offset="1" stop-color="#050505"/>
+    </linearGradient>
+    <radialGradient id="topLight" cx="50%" cy="0%" r="78%">
+      <stop offset="0" stop-color="#FFF4C4" stop-opacity="0.13"/>
+      <stop offset="0.32" stop-color="#D9A91F" stop-opacity="0.055"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#B8860B"/>
+      <stop offset="0.23" stop-color="#F5D36A"/>
+      <stop offset="0.52" stop-color="#FFD700"/>
+      <stop offset="0.77" stop-color="#F7CC51"/>
+      <stop offset="1" stop-color="#B8860B"/>
+    </linearGradient>
+    <linearGradient id="badgeGold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#B8860B"/>
+      <stop offset="0.45" stop-color="#FFD700"/>
+      <stop offset="1" stop-color="#E8B734"/>
+    </linearGradient>
+    <linearGradient id="buttonSheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.09"/>
+      <stop offset="0.45" stop-color="#FFFFFF" stop-opacity="0.018"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.12"/>
+    </linearGradient>
+    <filter id="goldGlow" x="-20%" y="-40%" width="140%" height="180%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feFlood flood-color="#FFD700" flood-opacity="0.34" result="color"/>
+      <feComposite in="color" in2="blur" operator="in" result="glow"/>
+      <feMerge><feMergeNode in="glow"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="11" flood-color="#000000" flood-opacity="0.65"/>
+    </filter>
+    <filter id="badgeShadow" x="-30%" y="-60%" width="160%" height="220%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#D99D00" flood-opacity="0.35"/>
+    </filter>
+    <clipPath id="cardClip"><rect width="900" height="340" rx="32"/></clipPath>
+  </defs>
 
+  <g filter="url(#softShadow)">
+    <rect x="1.5" y="1.5" width="897" height="337" rx="30.5" fill="url(#surface)"/>
+    <g clip-path="url(#cardClip)">
+      <rect width="900" height="340" fill="url(#topLight)"/>
+      <path d="M30 106H870" stroke="#FFFFFF" stroke-opacity="0.055"/>
+      <path d="M0 290C215 252 390 318 572 278C724 244 824 254 900 274V340H0Z" fill="#000000" opacity="0.16"/>
+      <ellipse cx="730" cy="20" rx="210" ry="90" fill="#FFD700" opacity="0.018"/>
+    </g>
+    <rect x="1.5" y="1.5" width="897" height="337" rx="30.5" fill="none" stroke="url(#gold)" stroke-width="3" filter="url(#goldGlow)"/>
+    <rect x="8" y="8" width="884" height="324" rx="25" fill="none" stroke="#FFF4C4" stroke-opacity="0.14"/>
+    <path d="M34 20H866" stroke="#FFFFFF" stroke-opacity="0.12" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(42 38)">
+    <rect width="72" height="72" rx="20" fill="#0B0B0B" stroke="url(#gold)" stroke-width="2"/>
+    <rect x="6" y="6" width="60" height="60" rx="15" fill="#171717" stroke="#FFF0B1" stroke-opacity="0.16"/>
+    <path d="M24 44L36 25L48 44L41.6 43.9L36 34.9L30.4 43.9Z" fill="url(#gold)"/>
+    <circle cx="36" cy="49" r="3" fill="#F5D36A"/>
+  </g>
+  <text x="134" y="63" fill="#FFFFFF" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="27" font-weight="800" letter-spacing="0.5">PROJECT NAME</text>
+  <text x="134" y="91" fill="#B6B6B6" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14.5">A refined, high-performance product built for the future.</text>
+
+  <g transform="translate(716 42)" filter="url(#badgeShadow)">
+    <rect width="142" height="37" rx="18.5" fill="url(#badgeGold)"/>
+    <rect x="1" y="1" width="140" height="35" rx="17.5" fill="none" stroke="#FFF5C1" stroke-opacity="0.68"/>
+    <path d="M23 10.7L25.6 16L31.4 16.9L27.2 21L28.2 26.8L23 24.1L17.8 26.8L18.8 21L14.6 16.9L20.4 16Z" fill="#4F3600"/>
+    <text x="42" y="23.5" fill="#392700" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="800" letter-spacing="0.8">FLAGSHIP</text>
+  </g>
+
+  <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="650">
+    <g transform="translate(42 145)"><rect width="91" height="35" rx="17.5" fill="#121212" stroke="#D9AD37" stroke-opacity="0.7"/><rect x="1" y="1" width="89" height="33" rx="16.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.055"/><circle cx="18" cy="17.5" r="4" fill="#61DAFB"/><text x="30" y="22" fill="#E8E8E8">React</text></g>
+    <g transform="translate(144 145)"><rect width="126" height="35" rx="17.5" fill="#121212" stroke="#D9AD37" stroke-opacity="0.7"/><rect x="1" y="1" width="124" height="33" rx="16.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.055"/><circle cx="18" cy="17.5" r="4" fill="#6DB33F"/><text x="30" y="22" fill="#E8E8E8">Spring Boot</text></g>
+    <g transform="translate(281 145)"><rect width="116" height="35" rx="17.5" fill="#121212" stroke="#D9AD37" stroke-opacity="0.7"/><rect x="1" y="1" width="114" height="33" rx="16.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.055"/><circle cx="18" cy="17.5" r="4" fill="#47A248"/><text x="30" y="22" fill="#E8E8E8">MongoDB</text></g>
+    <g transform="translate(408 145)"><rect width="101" height="35" rx="17.5" fill="#121212" stroke="#D9AD37" stroke-opacity="0.7"/><rect x="1" y="1" width="99" height="33" rx="16.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.055"/><circle cx="18" cy="17.5" r="4" fill="#8E75FF"/><text x="30" y="22" fill="#E8E8E8">Gemini</text></g>
+    <g transform="translate(520 145)"><rect width="102" height="35" rx="17.5" fill="#121212" stroke="#D9AD37" stroke-opacity="0.7"/><rect x="1" y="1" width="100" height="33" rx="16.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.055"/><circle cx="18" cy="17.5" r="4" fill="#2496ED"/><text x="30" y="22" fill="#E8E8E8">Docker</text></g>
+  </g>
+
+  <g transform="translate(42 239)">
+    <g>
+      <rect width="154" height="54" rx="16" fill="#101010" stroke="url(#gold)" stroke-width="1.5"/>
+      <rect x="1.5" y="1.5" width="151" height="51" rx="14.5" fill="url(#buttonSheen)"/>
+      <path d="M29 19.8C24.7 19.8 21.1 23.3 21.1 27.7C21.1 31.2 23.4 34.2 26.6 35.3C27 35.4 27.1 35.1 27.1 34.9V33.2C24.8 33.7 24.3 32.2 24.3 32.2C23.9 31.2 23.3 30.9 23.3 30.9C22.5 30.4 23.4 30.4 23.4 30.4C24.3 30.5 24.8 31.3 24.8 31.3C25.6 32.7 26.9 32.3 27.3 32.1C27.4 31.5 27.6 31.1 27.8 30.9C25.9 30.7 23.8 30 23.8 27.1C23.8 26.3 24.1 25.6 24.6 25C24.5 24.8 24.3 24.1 24.7 23.1C24.7 23.1 25.4 22.9 27.1 24C27.7 23.8 28.3 23.8 29 23.8C29.6 23.8 30.2 23.8 30.8 24C32.5 22.9 33.2 23.1 33.2 23.1C33.6 24.1 33.4 24.8 33.3 25C33.8 25.6 34.1 26.3 34.1 27.1C34.1 30 32 30.7 30.1 30.9C30.4 31.2 30.6 31.7 30.6 32.4V34.9C30.6 35.1 30.8 35.4 31.2 35.3C34.4 34.2 36.7 31.2 36.7 27.7C36.7 23.3 33.2 19.8 29 19.8Z" fill="#F5D36A"/>
+      <text x="48" y="33.5" fill="#FFFFFF" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="750">GitHub</text>
+    </g>
+    <g transform="translate(168)">
+      <rect width="154" height="54" rx="16" fill="#15120A" stroke="url(#gold)" stroke-width="1.5"/>
+      <rect x="1.5" y="1.5" width="151" height="51" rx="14.5" fill="url(#buttonSheen)"/>
+      <path d="M29 21L37 27L29 33V29H22V25H29Z" fill="#F5D36A"/>
+      <text x="48" y="33.5" fill="#FFFFFF" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="750">Live Demo</text>
+    </g>
+  </g>
+  <text x="858" y="289" text-anchor="end" fill="#8E8E8E" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="600" letter-spacing="1.5">FEATURED BUILD</text>
+</svg>
