@@ -134,8 +134,8 @@
 
 <div align="center">
 
-<a href="https://github.com/Kabilan9111/CopGuard-AI">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kabilan9111&repo=CopGuard-AI&theme=github_dark&hide_border=true" />
+<a href="https://github.com/Kabilan9111/Cop-Guard-AI">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Kabilan9111&repo=Cop-Guard-AI&theme=github_dark&hide_border=true" />
 </a>
 
 <a href="https://github.com/Kabilan9111/SkillForge">
